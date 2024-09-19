@@ -6,5 +6,5 @@
 pre-commit:
   parallel: true
   commands:
-    fix:
-      run: task fix
+    check:
+      run: task check

@@ -16,6 +16,6 @@ tasks:
       - npm run dev
     silent: true
 
-  fix:
+  check:
     cmds:
-      - npm run fix
+      - npm run check

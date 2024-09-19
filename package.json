@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "biome lint --write ./src",
     "format": "biome format --write ./src",
-    "check": "biome check --write ./src",
-    "fix": "npm run check"
+    "check": "biome check --write ./src"
   },
   "dependencies": {
     "@biomejs/biome": "^1.9.0",
