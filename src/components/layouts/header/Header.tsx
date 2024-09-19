@@ -1,3 +1,3 @@
 export const Header = () => {
-	return <nav className="w-full"></nav>;
-};
+  return <nav className='w-full' />
+}
