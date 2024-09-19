@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import '@/styles/globals.css'
-import { Header } from '@/components/layouts/header/Header'
 import clsx from 'clsx'
+import { Header } from '@/components/layouts/header/page'
 
 export const metadata: Metadata = {
   title: 'なげるフェスティバル',

@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import { ProgramCard } from '../program/ProgramCard'
+import { ProgramCard } from "../program/ProgramCard"
 
 export const Program = () => {
   return (
