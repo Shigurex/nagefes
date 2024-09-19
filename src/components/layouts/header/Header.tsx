@@ -59,9 +59,9 @@ export const Header = () => {
         variant='outline'
         size='icon'
         className='fixed top-4 right-4 z-50 bg-primary text-primary-foreground'
-        aria-label={isOpen ? "メニューを閉じる" : "メニューを開く"}
+        aria-label={isOpen ? 'メニューを閉じる' : 'メニューを開く'}
       >
-        {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        {isOpen ? <X className='h-6 w-6' /> : <Menu className='h-6 w-6' />}
       </Button>
       <AnimatePresence>
         {isOpen && (
