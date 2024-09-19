@@ -1,4 +1,4 @@
-import { Program } from "@/components/home/Program";
+import { Program } from '@/components/home/program'
 
 export default function Home() {
   return (
