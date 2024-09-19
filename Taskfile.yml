@@ -19,3 +19,7 @@ tasks:
   check:
     cmds:
       - npm run check
+
+  build:
+    cmds:
+      - npm run build
