@@ -12,5 +12,5 @@ pre-commit:
 pre-push:
   parallel: true
   commands:
-    check:
+    build:
       run: task build
