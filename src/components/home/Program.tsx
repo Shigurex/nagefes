@@ -1,4 +1,4 @@
-import { ProgramCard } from "@/components/program/ProgramCard"
+import { ProgramCard } from '@/components/program/ProgramCard'
 
 export const Program = () => {
   return (
