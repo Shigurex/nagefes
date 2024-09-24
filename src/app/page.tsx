@@ -1,5 +1,4 @@
-import { MenuTitle } from '@/components/common/menuTitle'
-import { Program } from '@/components/home/program'
+import { Program } from '@/components/home/programs'
 import TopPage from '@/components/home/toppage'
 
 export default function Home() {
