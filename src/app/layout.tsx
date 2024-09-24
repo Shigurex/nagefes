@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import '@/styles/globals.css'
-import { Header } from '@/components/layouts/header/Page'
+import { Header } from '@/components/layouts/header/page'
 import clsx from 'clsx'
 
 export const metadata: Metadata = {

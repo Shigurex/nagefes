@@ -7,27 +7,30 @@ import {
   CardHeader,
   CardTitle,
 } from '../ui/card'
+import { Button } from '../ui/button'
 
 export const ProgramCard = () => {
   return (
-    <Card>
-      <CardContent>
-        <div className='bg-white text-blue-500 rounded-lg p-4 flex items-center space-x-4'>
-          <div className='bg-blue-500 rounded-full p-2'>
-            <Image
-              src='/placeholder.svg'
-              alt='Program icon'
-              width={40}
-              height={40}
-              className='rounded-full'
-            />
-          </div>
-          <div>
-            <h4 className='font-bold'>プログラム名</h4>
-            <p className='text-sm'>説明テキスト</p>
-          </div>
-        </div>
+    <Card className="w-full overflow-hidden">
+      <CardHeader className="p-0 h-[260px] overflow-hidden relative">
+        <Image
+          src="/test.jpg"
+          alt="Background Image"
+          width={384}
+          height={260}
+          className="w-full h-full object-cover"
+        />
+        {/* <div className='absolute top-0 left-0 bg-slate-300 rounded-full h-12 w-12 text-white text-center'>有料</div> */}
+      </CardHeader>
+      <CardContent className="p-4 text-center">
+        <CardTitle className="text-2xl font-bold mb-2">プログラム名</CardTitle>
+        <p className="text-sm text-muted-foreground">
+          内容
+        </p>
       </CardContent>
+      <CardFooter>
+        <Button className="w-full">お申し込みはこちら</Button>
+      </CardFooter>
     </Card>
   )
 }
