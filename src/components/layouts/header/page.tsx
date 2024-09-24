@@ -42,14 +42,16 @@ export const Header = () => {
   }
 
   const menuItems = [
-    { name: 'ホーム', path: '/', icon: <Home className='h-5 w-5' /> },
-    { name: 'サービス', path: '/', icon: <Briefcase className='h-5 w-5' /> },
+    { name: 'TOP', path: '/#top', icon: <Home className='h-5 w-5' /> },
+    { name: 'NEWS', path: '/#news', icon: <Briefcase className='h-5 w-5' /> },
     {
-      name: 'プロジェクト',
-      path: '/',
+      name: 'PROGRAM',
+      path: '/#program',
       icon: <FolderOpen className='h-5 w-5' />,
     },
-    { name: 'お問い合わせ', path: '/', icon: <Mail className='h-5 w-5' /> },
+    { name: 'ACCESS', path: '/#access', icon: <Mail className='h-5 w-5' /> },
+    { name: 'INFORMATION', path: '/#information', icon: <Mail className='h-5 w-5' /> },
+    { name: 'CONTACT', path: '/#contact', icon: <Mail className='h-5 w-5' /> },
   ]
 
   return (
