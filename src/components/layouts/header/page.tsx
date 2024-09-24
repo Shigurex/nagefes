@@ -1,8 +1,9 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
+import { menuItems } from '@/constant/menu'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Briefcase, FolderOpen, Home, Mail, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 
@@ -40,23 +41,6 @@ export const Header = () => {
       transition: { duration: 0.5, ease: 'easeInOut' },
     },
   }
-
-  const menuItems = [
-    { name: 'TOP', path: '/#top', icon: <Home className='h-5 w-5' /> },
-    { name: 'NEWS', path: '/#news', icon: <Briefcase className='h-5 w-5' /> },
-    {
-      name: 'PROGRAM',
-      path: '/#program',
-      icon: <FolderOpen className='h-5 w-5' />,
-    },
-    { name: 'ACCESS', path: '/#access', icon: <Mail className='h-5 w-5' /> },
-    {
-      name: 'INFORMATION',
-      path: '/#information',
-      icon: <Mail className='h-5 w-5' />,
-    },
-    { name: 'CONTACT', path: '/#contact', icon: <Mail className='h-5 w-5' /> },
-  ]
 
   return (
     <nav className='relative'>
