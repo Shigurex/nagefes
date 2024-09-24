@@ -1,4 +1,4 @@
-import { ProgramCard } from '@/components/program/programCard'
+import { ProgramCard } from '@/components/program/card'
 import { MenuTitle } from '../common/menuTitle'
 
 export const Program = () => {

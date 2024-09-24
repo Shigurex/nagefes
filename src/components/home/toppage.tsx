@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import { ProgramCard } from '../program/programCard'
 import { Button } from '../ui/button'
 
 export default function TopPage() {
