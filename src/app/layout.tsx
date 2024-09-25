@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import '@/styles/globals.css'
+import { Footer } from '@/components/layouts/footer/page'
 import { Header } from '@/components/layouts/header/page'
 import clsx from 'clsx'
 
@@ -16,11 +17,14 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head />
-      <body className={clsx('flex flex-col h-screen', 'antialiased')}>
+      <body className={clsx('flex flex-col', 'antialiased')}>
         <header className='w-full fixed top-0 z-10'>
           <Header />
         </header>
         <main className='flex-grow'>{children}</main>
+        <footer className='w-full'>
+          <Footer />
+        </footer>
       </body>
     </html>
   )
