@@ -1,7 +1,7 @@
+import { InstagramPost } from '@/components/common/instagramPost'
 import { menuItems } from '@/constant/menu'
 import { Link, icons } from 'lucide-react'
 import { SideMenu } from '../menu/page'
-import { InstagramPost } from '@/components/common/instagramPost'
 
 export const Footer = () => {
   return (
