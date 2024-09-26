@@ -12,7 +12,9 @@ export const Information = () => {
               {information.icon}
               <span>{information.label}</span>
             </div>
-            <div className='flex-1 ml-4 text-gray-800 font-semibold'>{information.value}</div>
+            <div className='flex-1 ml-4 text-gray-800 font-semibold'>
+              {information.value}
+            </div>
           </div>
         ))}
       </div>

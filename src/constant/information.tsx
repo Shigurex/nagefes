@@ -21,7 +21,7 @@ export const informationItems: Information[] = [
   },
   {
     label: '場所',
-    value: '等々力陸上競技場 補助競技場＋広場',
+    value: '等々力陸上競技場 補助競技場 + 広場',
     icon: <MapPin className='w-6 h-6' />,
   },
   {
