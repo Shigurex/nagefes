@@ -1,3 +1,4 @@
+import { InstagramPost } from '@/components/common/instagramPost'
 import { menuItems } from '@/constant/menu'
 import { Link, icons } from 'lucide-react'
 import { SideMenu } from '../menu/page'
@@ -9,7 +10,7 @@ export const Footer = () => {
         <div className='h-[400px] w-full bg-slate-200 rounded-lg' />
         <div className='h-[400px] w-full bg-slate-200 rounded-lg' />
         <div className='h-[400px] w-full bg-slate-200 rounded-lg' />
-        <div className='h-[400px] w-full bg-slate-200 rounded-lg' />
+        <InstagramPost />
       </div>
       <div className='flex'>
         <SideMenu />
