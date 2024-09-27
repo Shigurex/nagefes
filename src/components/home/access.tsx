@@ -14,7 +14,7 @@ export const Access = () => {
             <span className='text-sm sm:md:text-base font-semibold'>
               メイン会場
             </span>
-            <span className='text-2xl sm:text-3xl'>
+            <span className='text-2xl sm:text-3xl font-semibold'>
               等々力陸上競技場 補助競技場
             </span>
             <span className='text-sm sm:md:text-base'>

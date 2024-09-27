@@ -16,7 +16,7 @@ export default function Home() {
       <Support />
       <div className="relative bg-[url('/background.png')] bg-cover h-[300px]" />
       <div className='flex container mx-auto gap-4'>
-        <div className='hidden md:block md:flex-init'>
+        <div className='hidden md:block md:flex-init pt-5'>
           <SideMenu />
         </div>
         <div className='flex flex-col flex-auto'>
