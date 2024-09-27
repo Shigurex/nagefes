@@ -11,8 +11,12 @@ export const Access = () => {
         {/* <div className='h-[400px] w-full bg-slate-200 rounded-lg' /> */}
         <div className='w-full flex flex-col gap-3'>
           <div className='flex flex-col gap-3'>
-            <span className='text-sm sm:md:text-base font-semibold'>メイン会場</span>
-            <span className='text-2xl sm:text-3xl'>等々力陸上競技場 補助競技場</span>
+            <span className='text-sm sm:md:text-base font-semibold'>
+              メイン会場
+            </span>
+            <span className='text-2xl sm:text-3xl'>
+              等々力陸上競技場 補助競技場
+            </span>
             <span className='text-sm sm:md:text-base'>
               〒211-0052 神奈川県川崎市中原区等々力1-5
             </span>
