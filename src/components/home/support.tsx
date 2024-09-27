@@ -9,10 +9,14 @@ export const Support = () => {
       {/* <MenuTitle>Support</MenuTitle> */}
       <div className='flex justify-center'>
         <div className='justify-center w-96 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
-          <span className='text-sm md:text-base'>なげるフェスティバル協賛協力のお願い</span>
+          <span className='text-sm md:text-base'>
+            なげるフェスティバル協賛協力のお願い
+          </span>
         </div>
       </div>
-      <div className='h-[400px] w-full bg-slate-200 rounded-lg flex justify-center items-center text-4xl font-bold'>協賛協力よろしくお願いいたします</div>
+      <div className='h-[400px] w-full bg-slate-200 rounded-lg flex justify-center items-center text-4xl font-bold'>
+        協賛協力よろしくお願いいたします
+      </div>
     </div>
   )
 }
