@@ -1,4 +1,5 @@
 import {
+  Briefcase,
   Handshake,
   Home,
   Info,
@@ -21,6 +22,11 @@ export const menuItems: Menu[] = [
     name: 'PROGRAM',
     path: '/#program',
     icon: <ScrollText className='h-5 w-5' />,
+  },
+  {
+    name: 'GOODS',
+    path: '/#goods',
+    icon: <Briefcase className='h-5 w-5' />,
   },
   {
     name: 'SUPPORT',
