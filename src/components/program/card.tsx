@@ -36,7 +36,7 @@ export const ProgramCard = ({ program }: Props) => {
         )}
       </CardHeader>
       <CardContent className='p-4 text-center flex-grow'>
-        <CardTitle className='text-2xl font-bold mb-2'>
+        <CardTitle className='text-2xl font-bold mb-2 whitespace-pre-wrap'>
           {program.name}
         </CardTitle>
         <p className='text-sm text-muted-foreground whitespace-pre-wrap'>

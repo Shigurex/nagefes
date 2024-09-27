@@ -9,6 +9,30 @@ export interface Program {
 
 export const programItems: Program[] = [
   {
+    name: 'なげるゲームス\n（やり投の部）',
+    icon: '/test.jpg',
+    detail: 'やり投 予選3投 決勝2投',
+    target: '高校生以上',
+    isFree: false,
+    path: 'https://nagerufes.com/',
+  },
+  {
+    name: 'なげるゲームス\n（小学生・中学生の部）',
+    icon: '/test.jpg',
+    detail: 'ジャベボール投 予選3投 決勝2投',
+    target: '小学生 / 中学生',
+    isFree: false,
+    path: 'https://nagerufes.com/',
+  },
+  {
+    name: 'なげるゲームス\n（大人の部）',
+    icon: '/test.jpg',
+    detail: 'ジャベボール投 予選3投 決勝2投',
+    target: '高校生以上',
+    isFree: false,
+    path: 'https://nagerufes.com/',
+  },
+  {
     name: '投能力タレント発掘プログラム',
     icon: '/test.jpg',
     detail:
