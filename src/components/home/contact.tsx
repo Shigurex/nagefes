@@ -49,9 +49,8 @@ export const Contact = () => {
                 <Image
                   src={organizer.icon}
                   alt='Profile image'
-                  layout='fill'
-                  objectFit='cover'
-                  className='rounded-xl'
+                  fill
+                  className='rounded-xl object-cover'
                 />
               </div>
               <div className='flex flex-col'>
