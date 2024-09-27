@@ -11,30 +11,30 @@ export const Access = () => {
         {/* <div className='h-[400px] w-full bg-slate-200 rounded-lg' /> */}
         <div className='w-full flex flex-col gap-3'>
           <div className='flex flex-col gap-3'>
-            <span className='text-md font-semibold'>メイン会場</span>
-            <span className='text-3xl'>等々力陸上競技場 補助競技場</span>
-            <span className='text-md'>
+            <span className='text-sm sm:md:text-base font-semibold'>メイン会場</span>
+            <span className='text-2xl sm:text-3xl'>等々力陸上競技場 補助競技場</span>
+            <span className='text-sm sm:md:text-base'>
               〒211-0052 神奈川県川崎市中原区等々力1-5
             </span>
           </div>
-          <div className='w-full font-bold text-lg bg-orange-600 px-4 py-1 text-left text-white'>
+          <div className='w-full font-bold text-md md:text-lg bg-orange-600 px-4 py-1 text-left text-white'>
             公共交通機関
           </div>
           <div className='flex items-start'>
-            <div className='w-28 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
-              <span className=''>電車 + 徒歩</span>
+            <div className='bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
+              <span className='text-sm md:text-base'>電車 + 徒歩</span>
             </div>
-            <div className='flex flex-col gap-2 flex-1 ml-4 text-gray-800'>
+            <div className='flex flex-col gap-2 flex-1 ml-4 text-gray-800 text-sm md:text-base'>
               <div>武蔵小杉駅より徒歩20分</div>
               <div>武蔵中原駅より徒歩15分</div>
               <div>新丸子駅より徒歩15分</div>
             </div>
           </div>
           <div className='flex items-start'>
-            <div className='w-28 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
-              <span className=''>電車 + バス</span>
+            <div className='bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
+              <span className='text-sm md:text-base'>電車 + バス</span>
             </div>
-            <div className='flex flex-col gap-1 flex-1 ml-4 text-gray-800'>
+            <div className='flex flex-col gap-1 flex-1 ml-4 text-gray-800 text-sm md:text-base'>
               下記リンクより詳細をご覧ください
               <Link
                 href='https://kawasaki-todoroki-park.co.jp/access/'
@@ -49,10 +49,10 @@ export const Access = () => {
               </Link>
             </div>
           </div>
-          <div className='w-full font-bold text-lg bg-orange-600 px-4 py-1 text-left text-white'>
+          <div className='w-full font-bold text-md md:text-lg bg-orange-600 px-4 py-1 text-left text-white'>
             車
           </div>
-          <div className='flex flex-col gap-1 flex-1 text-gray-800'>
+          <div className='flex flex-col gap-1 flex-1 text-gray-800 text-sm md:md:text-base'>
             下記リンクより詳細をご覧ください
             <Link
               href='https://kawasaki-todoroki-park.co.jp/access/'
@@ -65,7 +65,7 @@ export const Access = () => {
                 こちらをクリック
               </Button>
             </Link>
-            <span className='text-sm'>
+            <span className='text-xs md:text-sm'>
               ※当日は混雑が予想されます。可能な範囲で公共交通機関でのご来場をご検討いただけますと幸いです
             </span>
           </div>
@@ -79,7 +79,7 @@ export const Access = () => {
           allowFullScreen={true}
           loading='lazy'
           referrerPolicy='no-referrer-when-downgrade'
-          className='border-0 flex-auto md:flex-none'
+          className='border-0 flex-auto max-w-max sm:max-w-full md:flex-none'
         />
       </div>
     </div>

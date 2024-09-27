@@ -7,8 +7,8 @@ export const Information = () => {
       <MenuTitle>Information</MenuTitle>
       <div className='flex flex-col gap-3'>
         {informationItems.map(information => (
-          <div className='flex items-center' key={information.label}>
-            <div className='w-32 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
+          <div className='flex items-center text-sm md:text-base' key={information.label}>
+            <div className='w-32 md:w-36 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
               {information.icon}
               <span>{information.label}</span>
             </div>
