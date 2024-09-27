@@ -6,7 +6,7 @@ export const Goods = () => {
       className='container mx-auto flex flex-col px-3 py-10 gap-5'
       id='goods'
     >
-      <MenuTitle color='text-black'>GOODS</MenuTitle>
+      <MenuTitle>GOODS</MenuTitle>
       <div className='h-[400px] w-full bg-slate-100 rounded-lg flex justify-center items-center text-4xl font-bold'>
         Coming Soon ...
       </div>
