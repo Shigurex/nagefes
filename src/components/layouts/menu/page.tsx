@@ -10,7 +10,7 @@ export const SideMenu = () => {
             <Link
               key={item.name}
               href={item.path}
-              className='block text-black text-md hover:text-slate-600 hover:text-primary transition-colors duration-200 ease-in-out'
+              className='block text-black text-md hover:text-slate-600 hover:text-primary transition-colors duration-200 ease-in-out font-medium'
             >
               {item.name}
             </Link>

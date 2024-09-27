@@ -1,4 +1,5 @@
 import { ProgramCard } from '@/components/program/card'
+import { programItems } from '@/constant/program'
 import { MenuTitle } from '../common/menuTitle'
 
 export const Program = () => {
@@ -9,9 +10,9 @@ export const Program = () => {
     >
       <MenuTitle>Program</MenuTitle>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
-        <ProgramCard />
-        <ProgramCard />
-        <ProgramCard />
+        {programItems.map((program, _) => (
+          <ProgramCard key={program.name} program={program} />
+        ))}
       </div>
     </div>
   )
