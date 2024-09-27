@@ -1,10 +1,11 @@
 import { informationItems } from '@/constant/information'
+import clsx from 'clsx'
 import { MenuTitle } from '../common/menuTitle'
 
 export const Information = () => {
   return (
     <div className='flex flex-col px-3 py-10 gap-5' id='information'>
-      <MenuTitle>Information</MenuTitle>
+      <MenuTitle>INFORMATION</MenuTitle>
       <div className='flex flex-col gap-3'>
         {informationItems.map(information => (
           <div

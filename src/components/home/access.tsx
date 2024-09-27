@@ -1,4 +1,3 @@
-import { Footprints, MapPin } from 'lucide-react'
 import Link from 'next/link'
 import { MenuTitle } from '../common/menuTitle'
 import { Button } from '../ui/button'
@@ -6,7 +5,10 @@ import { Button } from '../ui/button'
 export const Access = () => {
   return (
     <div className='flex flex-col px-3 py-10 gap-5' id='access'>
-      <MenuTitle>Access</MenuTitle>
+      <MenuTitle>ACCESS</MenuTitle>
+      {/* <div className='w-full'>
+        <span className={clsx('font-bold text-4xl py-2 w-[200px] text-center text-orange-600', topPageFont.className)}>ACCESS</span>
+      </div> */}
       <div className='flex flex-col xl:flex-row gap-5'>
         {/* <div className='h-[400px] w-full bg-slate-200 rounded-lg' /> */}
         <div className='w-full flex flex-col gap-3'>
