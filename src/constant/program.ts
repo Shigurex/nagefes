@@ -33,7 +33,7 @@ export const programItems: Program[] = [
     path: 'https://nagerufes.com/',
   },
   {
-    name: '投能力タレント発掘プログラム',
+    name: '投能力タレント\n発掘プログラム',
     icon: '/test.jpg',
     detail:
       '講習会＋投能力向上プログラム\n①10 時〜11時 ②11時〜12時 ③12時〜13時',

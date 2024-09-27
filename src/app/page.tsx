@@ -1,5 +1,6 @@
 import { Access } from '@/components/home/access'
 import { Contact } from '@/components/home/contact'
+import { Goods } from '@/components/home/goods'
 import { Information } from '@/components/home/information'
 import { News } from '@/components/home/news'
 import { Program } from '@/components/home/programs'
@@ -13,6 +14,7 @@ export default function Home() {
       <TopPage />
       <News />
       <Program />
+      <Goods />
       <Support />
       <div className="relative bg-[url('/todoroki.jpg')] bg-cover bg-center h-auto aspect-[16/9] md:aspect-[3/1] " />
       <div className='flex container mx-auto gap-4'>

@@ -14,8 +14,8 @@ export const Support = () => {
           </span>
         </div>
       </div>
-      <div className='h-[400px] w-full bg-slate-200 rounded-lg flex justify-center items-center text-4xl font-bold'>
-        協賛協力よろしくお願いいたします
+      <div className='h-[400px] w-full bg-slate-100 rounded-lg flex justify-center items-center text-4xl font-bold'>
+        Coming Soon ...
       </div>
     </div>
   )
