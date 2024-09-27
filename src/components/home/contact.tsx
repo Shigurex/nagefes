@@ -1,4 +1,6 @@
+import { organizerItems } from '@/constant/organizers'
 import { ClipboardType, Phone } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { MenuTitle } from '../common/menuTitle'
 
@@ -39,6 +41,26 @@ export const Contact = () => {
         </div>
         <div className='justify-center w-64 md:w-80 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
           <span className='text-sm md:text-base'>大会運営責任者</span>
+        </div>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
+          {organizerItems.map(organizer => (
+            <div key={organizer.name} className='flex items-center gap-4'>
+              <div className='relative w-32 h-32 md:w-48 md:h-48'>
+                <Image
+                  src={organizer.icon}
+                  alt='Profile image'
+                  layout='fill'
+                  objectFit='cover'
+                  className='rounded-xl'
+                />
+              </div>
+              <div className='flex flex-col'>
+                <p className='font-bold text-xl'>{organizer.name}</p>
+                <p className='text-sm text-gray-600'>{organizer.nameEnglish}</p>
+                <p className='mt-2 text-sm'>{organizer.detail}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
