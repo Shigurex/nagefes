@@ -1,4 +1,6 @@
+import type { Program } from '@/constant/program'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Button } from '../ui/button'
 import {
   Card,
@@ -8,25 +10,46 @@ import {
   CardTitle,
 } from '../ui/card'
 
-export const ProgramCard = () => {
+type Props = {
+  program: Program
+}
+
+export const ProgramCard = ({ program }: Props) => {
   return (
-    <Card className='w-full overflow-hidden'>
-      <CardHeader className='p-0 h-[260px] overflow-hidden relative'>
+    <Card className='w-full overflow-hidden flex flex-col'>
+      <CardHeader className='p-0 overflow-hidden relative aspect-[16/9]'>
         <Image
-          src='/test.jpg'
+          src={program.icon}
           alt='Background Image'
-          width={384}
-          height={260}
+          width={1920}
+          height={1080}
           className='w-full h-full object-cover'
         />
-        {/* <div className='absolute top-0 left-0 bg-slate-300 rounded-full h-12 w-12 text-white text-center'>有料</div> */}
+        {!program.isFree ? (
+          <div className='absolute bottom-3 right-3 bg-orange-600 rounded-full h-16 w-16 text-white flex items-center justify-center text-lg'>
+            有料
+          </div>
+        ) : (
+          <div className='absolute bottom-3 right-3 bg-green-600 rounded-full h-16 w-16 text-white flex items-center justify-center text-lg'>
+            無料
+          </div>
+        )}
       </CardHeader>
-      <CardContent className='p-4 text-center'>
-        <CardTitle className='text-2xl font-bold mb-2'>プログラム名</CardTitle>
-        <p className='text-sm text-muted-foreground'>内容</p>
+      <CardContent className='p-4 text-center flex-grow'>
+        <CardTitle className='text-2xl font-bold mb-2'>
+          {program.name}
+        </CardTitle>
+        <p className='text-sm text-muted-foreground whitespace-pre-wrap'>
+          対象：{program.target}
+        </p>
+        <p className='text-sm text-muted-foreground whitespace-pre-wrap'>
+          {program.detail}
+        </p>
       </CardContent>
       <CardFooter>
-        <Button className='w-full'>お申し込みはこちら</Button>
+        <Link className='w-full' href={program.path} target='_blank'>
+          <Button className='w-full'>お申し込みはこちら</Button>
+        </Link>
       </CardFooter>
     </Card>
   )

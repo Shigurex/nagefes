@@ -44,6 +44,10 @@ export const Header = () => {
 
   return (
     <nav className='relative'>
+      {isOpen && (
+        <div className='fixed inset-0 z-40 bg-black bg-opacity-50 backdrop-blur-sm' />
+      )}
+
       <Button
         onClick={toggleMenu}
         variant='outline'
@@ -61,7 +65,7 @@ export const Header = () => {
             animate='open'
             exit='closed'
             variants={menuVariants}
-            className='fixed top-0 right-0 h-full w-72 bg-primary text-primary-foreground p-6 shadow-lg'
+            className='fixed top-0 right-0 z-50 h-full w-72 bg-primary text-primary-foreground p-6 shadow-lg'
           >
             <div className='space-y-3 mt-16'>
               {menuItems.map((item, _) => (

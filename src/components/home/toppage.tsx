@@ -3,7 +3,7 @@ import { Button } from '../ui/button'
 export default function TopPage() {
   return (
     <div
-      className="relative bg-[url('/background.png')] bg-cover h-[800px]"
+      className="relative bg-[url('/background.png')] bg-cover h-auto aspect-[4/3]"
       id='top'
     >
       {/* <div className='w-full flex justify-center'>
