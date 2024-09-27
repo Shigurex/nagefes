@@ -48,7 +48,7 @@ export const ProgramCard = ({ program }: Props) => {
       </CardContent>
       <CardFooter>
         <Link className='w-full' href={program.path} target='_blank'>
-          <Button className='w-full'>お申し込みはこちら</Button>
+          <Button className='w-full'>お申し込みはこちら（Coming Soon）</Button>
         </Link>
       </CardFooter>
     </Card>

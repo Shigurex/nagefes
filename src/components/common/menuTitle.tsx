@@ -1,15 +1,23 @@
+import { topPageFont } from '@/lib/fonts'
+import clsx from 'clsx'
+
 type Props = {
+  color?: string
   children: React.ReactNode
 }
 
-export const MenuTitle = ({ children }: Props) => {
+export const MenuTitle = ({ color, children }: Props) => {
   return (
     <div className='w-full'>
-      <div className='text-white flex items-center border-b-4 border-black'>
-        <span className='font-bold text-xl bg-black py-2 w-[200px] text-center'>
-          {children}
-        </span>
-      </div>
+      <span
+        className={clsx(
+          'font-bold text-4xl py-2 w-[200px] text-center',
+          color ?? 'text-orange-600',
+          topPageFont.className,
+        )}
+      >
+        {children}
+      </span>
     </div>
   )
 }
