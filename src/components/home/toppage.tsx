@@ -18,7 +18,7 @@ export default function TopPage() {
         </Link>
         <div className='flex justify-center'>
           <div className='justify-center p-3 font-semibold text-black flex items-center gap-3 md:gap-5'>
-            <span className='text-sm md:text-lg'>Sponsored By</span>
+            <span className='text-sm md:text-lg'>協賛</span>
             <Image
               src='/logo_nishi.svg'
               alt='Nishi'

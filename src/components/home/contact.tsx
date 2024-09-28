@@ -45,19 +45,18 @@ export const Contact = () => {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
           {organizerItems.map(organizer => (
             <div key={organizer.name} className='flex items-center gap-4'>
-              <div className='relative w-32 h-32 md:w-48 md:h-48'>
+              <div className='flex-none relative w-28 h-28 md:w-40 md:h-40'>
                 <Image
                   src={organizer.icon}
                   alt='Profile image'
-                  layout='fill'
-                  objectFit='cover'
-                  className='rounded-xl'
+                  fill
+                  className='rounded-full object-cover'
                 />
               </div>
               <div className='flex flex-col'>
                 <p className='font-bold text-xl'>{organizer.name}</p>
                 <p className='text-sm text-gray-600'>{organizer.nameEnglish}</p>
-                <p className='mt-2 text-sm'>{organizer.detail}</p>
+                <p className='text-sm mt-2 whitespace-pre-wrap'>{organizer.detail}</p>
               </div>
             </div>
           ))}
