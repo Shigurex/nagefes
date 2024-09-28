@@ -27,11 +27,11 @@ export const ProgramCard = ({ program }: Props) => {
           className='w-full h-full object-cover'
         />
         {!program.isFree ? (
-          <div className='absolute bottom-3 right-3 bg-orange-600 rounded-full h-16 w-16 text-white flex items-center justify-center text-lg'>
+          <div className='absolute bottom-3 right-3 bg-[#FF534F] rounded-full h-16 w-16 text-white flex items-center justify-center text-lg'>
             有料
           </div>
         ) : (
-          <div className='absolute bottom-3 right-3 bg-green-600 rounded-full h-16 w-16 text-white flex items-center justify-center text-lg'>
+          <div className='absolute bottom-3 right-3 bg-[#44D84F] rounded-full h-16 w-16 text-white flex items-center justify-center text-lg'>
             無料
           </div>
         )}

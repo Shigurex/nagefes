@@ -12,7 +12,7 @@ export const MenuTitle = ({ color, children }: Props) => {
       <span
         className={clsx(
           'font-bold text-4xl py-2 w-[200px] text-center',
-          color ?? 'text-orange-600',
+          color ?? 'text-[#FF534F]',
           topPageFont.className,
         )}
       >
