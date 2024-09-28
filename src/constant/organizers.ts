@@ -17,6 +17,6 @@ export const organizerItems: Organizer[] = [
     name: '八木 一憲',
     nameEnglish: 'Yagi Kazunori',
     icon: '/todoroki.jpg',
-    detail: '？年日本選手権入賞\nInstagramフォロワー約7.7万人',
+    detail: '日本選手権8位入賞\nInstagramフォロワー約7.7万人',
   },
 ]
