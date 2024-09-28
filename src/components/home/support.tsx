@@ -14,6 +14,13 @@ export const Support = () => {
           </span>
         </div>
       </div>
+      <div className='w-full'>
+        <p className='text-xs md:text-md lg:text-xl font-bold whitespace-pre-wrap text-center'>
+          {
+            'なげるフェスティバル実行委員会では、協賛・広告掲載にご協力いただける団体・企業様を募集をしております。\n下記に協賛・広告掲載についての概要を記載いたしますので\n協賛・広告掲載いただける団体様は下記のお問い合わせフォームよりお申し込みください。'
+          }
+        </p>
+      </div>
       <div className='h-[400px] w-full bg-slate-100 rounded-lg flex justify-center items-center text-4xl font-bold'>
         Coming Soon ...
       </div>

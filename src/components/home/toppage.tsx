@@ -18,7 +18,7 @@ export default function TopPage() {
             </span>
           </div>
         </Link>
-        <div className='flex justify-center'>
+        {/* <div className='flex justify-center'>
           <div className='justify-center p-3 font-semibold text-black flex items-center gap-3 md:gap-5'>
             <span className='text-sm md:text-lg'>協賛</span>
             <Image
@@ -29,7 +29,7 @@ export default function TopPage() {
               className='h-5 md:h-8 w-auto'
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

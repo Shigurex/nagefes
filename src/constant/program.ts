@@ -77,7 +77,7 @@ export const programItems: Program[] = [
   },
   {
     name: 'パラ体験',
-    icon: '/test.jpg',
+    icon: '/program/pala.jpg',
     detail: '目隠しスロー&キャッチ',
     target: '全年齢、ご家族連れ',
     isFree: true,
@@ -86,8 +86,8 @@ export const programItems: Program[] = [
   },
   {
     name: 'ターボジャブ体験会',
-    icon: '/test.jpg',
-    detail: 'ターボジャベの体験',
+    icon: '/program/turbo.jpg',
+    detail: 'ターボジャブの体験',
     target: '9歳以上',
     isFree: true,
     path: 'https://nagerufes.com/',
