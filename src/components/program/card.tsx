@@ -48,18 +48,23 @@ export const ProgramCard = ({ program }: Props) => {
         </p>
       </CardContent>
       <CardFooter>
-        {/* TODO: 開始時に差し変え */}
-        <div
-          className={clsx(
-            'w-full',
-            program.status !== 'during' && 'cursor-not-allowed',
+        <div className='w-full'>
+          {program.status === 'during' ? (
+            <Link href={program.path} target='_blank'>
+              <Button className='w-full'>
+                <span>お申し込みはこちら</span>
+              </Button>
+            </Link>
+          ) : (
+            <div className='w-full cursor-not-allowed'>
+              <Button className='w-full' disabled>
+                {program.status === 'before' && (
+                  <span>10/3申し込み開始予定</span>
+                )}
+                {program.status === 'after' && <span>満員御礼</span>}
+              </Button>
+            </div>
           )}
-        >
-          <Button className='w-full' disabled={program.status !== 'during'}>
-            {program.status === 'before' && <span>10/3申し込み開始予定</span>}
-            {program.status === 'during' && <span>お申し込みはこちら</span>}
-            {program.status === 'after' && <span>満員御礼</span>}
-          </Button>
         </div>
       </CardFooter>
     </Card>

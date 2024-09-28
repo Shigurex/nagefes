@@ -17,7 +17,7 @@ export const programItems: Program[] = [
     detail: 'やり投 予選3投 決勝2投',
     target: '高校生以上',
     isFree: false,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
     status: 'before',
   },
   {
@@ -26,7 +26,7 @@ export const programItems: Program[] = [
     detail: 'ジャベボール投 予選3投 決勝2投',
     target: '小学生 / 中学生',
     isFree: false,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
     status: 'before',
   },
   {
@@ -35,7 +35,7 @@ export const programItems: Program[] = [
     detail: 'ジャベボール投 予選3投 決勝2投',
     target: '高校生以上',
     isFree: false,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
     status: 'before',
   },
   {
@@ -45,7 +45,7 @@ export const programItems: Program[] = [
       '講習会＋投能力向上プログラム\n①10 時〜11時 ②11時〜12時 ③12時〜13時',
     target: '小学生',
     isFree: false,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
     status: 'before',
   },
   {
@@ -54,7 +54,7 @@ export const programItems: Program[] = [
     detail: 'ストラックアウト',
     target: '全年齢',
     isFree: true,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
     status: 'before',
   },
   {
@@ -63,7 +63,7 @@ export const programItems: Program[] = [
     detail: 'ブーブーチキン投げ',
     target: '小学生',
     isFree: true,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
     status: 'before',
   },
   {
@@ -72,7 +72,7 @@ export const programItems: Program[] = [
     detail: 'スマホ投げ',
     target: '高校生以上',
     isFree: true,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
     status: 'before',
   },
   {
@@ -81,7 +81,7 @@ export const programItems: Program[] = [
     detail: '目隠しスロー&キャッチ',
     target: '全年齢、ご家族連れ',
     isFree: true,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
     status: 'before',
   },
   {
@@ -90,7 +90,7 @@ export const programItems: Program[] = [
     detail: 'ターボジャブの体験',
     target: '9歳以上',
     isFree: true,
-    path: 'https://nagerufes.com/',
+    path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
     status: 'before',
   },
 ]
