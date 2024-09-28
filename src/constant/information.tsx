@@ -26,22 +26,22 @@ export const informationItems: Information[] = [
   },
   {
     label: '主催企画',
-    value: 'なげるフェスティバル実行委員会',
+    value: 'なげるフェスティバル実行委員会 / 川崎とどろきパーク株式会社',
     icon: <Users className='w-6 h-6' />,
   },
   {
     label: '後援',
-    value: '川崎等々力パーク',
+    value: '川崎市陸上競技協会',
     icon: <Building className='w-6 h-6' />,
   },
   {
     label: '協賛',
-    value: '株式会社NISHIスポーツ',
+    value: '株式会社ニシ・スポーツ',
     icon: <Briefcase className='w-6 h-6' />,
   },
-  {
-    label: '協力',
-    value: '川崎市陸上競技協会',
-    icon: <HandHelping className='w-6 h-6' />,
-  },
+  // {
+  //   label: '協力',
+  //   value: '',
+  //   icon: <HandHelping className='w-6 h-6' />,
+  // },
 ]
