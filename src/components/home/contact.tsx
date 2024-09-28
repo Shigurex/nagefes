@@ -56,7 +56,9 @@ export const Contact = () => {
               <div className='flex flex-col'>
                 <p className='font-bold text-xl'>{organizer.name}</p>
                 <p className='text-sm text-gray-600'>{organizer.nameEnglish}</p>
-                <p className='text-sm mt-2 whitespace-pre-wrap'>{organizer.detail}</p>
+                <p className='text-sm mt-2 whitespace-pre-wrap'>
+                  {organizer.detail}
+                </p>
               </div>
             </div>
           ))}
