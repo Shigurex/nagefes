@@ -10,13 +10,13 @@ export const Contact = () => {
       <MenuTitle>CONTACT</MenuTitle>
       <div className='flex flex-col gap-4'>
         <div className='justify-center w-64 md:w-80 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
-          <span className='text-sm md:text-base'>協賛・取材のお問い合わせ</span>
+          <span className='text-sm md:text-base'>協賛のお問い合わせ</span>
         </div>
         <div className='flex flex-col gap-3'>
-          <Link href='https://nagerufes.com/' target='_blank'>
+          <Link href='https://forms.gle/AvRAavxm5TS1Zhop9' target='_blank'>
             <div className='flex items-center gap-2 text-sm md:text-base'>
               <ClipboardType />
-              <span>協賛・取材用お問い合わせフォーム</span>
+              <span>協賛お問い合わせフォーム</span>
             </div>
           </Link>
         </div>
@@ -32,7 +32,7 @@ export const Contact = () => {
           <span className='text-sm md:text-base'>その他のお問い合わせ</span>
         </div>
         <div className='flex flex-col gap-3'>
-          <Link href='https://nagerufes.com/' target='_blank'>
+          <Link href='https://forms.gle/RFiKjw6Wf8eSVMEo9' target='_blank'>
             <div className='flex items-center gap-2 text-sm md:text-base'>
               <ClipboardType />
               <span>お問い合わせフォーム</span>
