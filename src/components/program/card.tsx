@@ -47,9 +47,15 @@ export const ProgramCard = ({ program }: Props) => {
         </p>
       </CardContent>
       <CardFooter>
-        <Link className='w-full' href={program.path} target='_blank'>
-          <Button className='w-full'>お申し込みはこちら（Coming Soon）</Button>
-        </Link>
+        {/* TODO: 開始時に差し変え */}
+        <div className='w-full cursor-not-allowed'>
+          <Button className='w-full' disabled={true}>
+            お申し込みはこちら（11/3開始予定）
+          </Button>
+        </div>
+        {/* <Link className='w-full' href={program.path} target='_blank'>
+          <Button className='w-full'>お申し込みはこちら</Button>
+        </Link> */}
       </CardFooter>
     </Card>
   )
