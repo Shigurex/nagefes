@@ -22,7 +22,7 @@ export default function TopPage() {
           <div className='justify-center p-3 font-semibold text-black flex items-center gap-3 md:gap-5'>
             <span className='text-sm md:text-lg'>協賛</span>
             <Image
-              src='/logo_nishi.svg'
+              src='/logo/nishi.svg'
               alt='Nishi'
               width='500'
               height='500'

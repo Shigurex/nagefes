@@ -9,7 +9,11 @@ export const News = () => {
         {newsItems.map(news => (
           <div key={news.context} className='p-2'>
             <p className='text-slate-800 font-bold'>
-              {news.date.toLocaleDateString()}
+              {news.date.toLocaleDateString('ja-JP', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+              })}
             </p>
             <p className='text-slate-800'>{news.context}</p>
           </div>
