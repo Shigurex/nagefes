@@ -12,15 +12,17 @@ export default function TopPage() {
         <Link href='/#program' className='flex justify-center'>
           <div className='justify-center w-72 md:w-96 bg-white border-2 rounded-lg p-3 font-semibold text-black flex items-center shadow-md'>
             <span className='text-sm md:text-base'>
-              イベント申し込みはこちらから
+              {/* TODO: 開始時に差し変え */}
+              イベント申し込みは10/3に開始します
+              {/* イベント申し込みはこちらから */}
             </span>
           </div>
         </Link>
         <div className='flex justify-center'>
           <div className='justify-center p-3 font-semibold text-black flex items-center gap-3 md:gap-5'>
-            <span className='text-sm md:text-lg'>Sponsored By</span>
+            <span className='text-sm md:text-lg'>協賛</span>
             <Image
-              src='/logo_nishi.svg'
+              src='/logo/nishi.svg'
               alt='Nishi'
               width='500'
               height='500'

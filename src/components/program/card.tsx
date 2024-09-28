@@ -1,4 +1,5 @@
 import type { Program } from '@/constant/program'
+import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '../ui/button'
@@ -47,9 +48,19 @@ export const ProgramCard = ({ program }: Props) => {
         </p>
       </CardContent>
       <CardFooter>
-        <Link className='w-full' href={program.path} target='_blank'>
-          <Button className='w-full'>お申し込みはこちら（Coming Soon）</Button>
-        </Link>
+        {/* TODO: 開始時に差し変え */}
+        <div
+          className={clsx(
+            'w-full',
+            program.status !== 'during' && 'cursor-not-allowed',
+          )}
+        >
+          <Button className='w-full' disabled={program.status !== 'during'}>
+            {program.status === 'before' && <span>10/3申し込み開始予定</span>}
+            {program.status === 'during' && <span>お申し込みはこちら</span>}
+            {program.status === 'after' && <span>満員御礼</span>}
+          </Button>
+        </div>
       </CardFooter>
     </Card>
   )
