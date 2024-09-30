@@ -95,7 +95,7 @@ export const programItems: Program[] = [
   },
   {
     name: 'ストラックアウト',
-    icon: '/program/turbo.jpg',
+    icon: '/program/strack_out.jpg',
     detail: 'ストラックアウトの体験',
     target: '全年齢',
     isFree: true,
