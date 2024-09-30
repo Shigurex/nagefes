@@ -51,7 +51,7 @@ export const programItems: Program[] = [
   {
     name: 'スピードガンコンテスト',
     icon: '/program/speed.jpg',
-    detail: 'ストラックアウト',
+    detail: '球速測定',
     target: '全年齢',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
