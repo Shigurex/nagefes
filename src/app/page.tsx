@@ -16,7 +16,7 @@ export default function Home() {
       <Program />
       <Goods />
       <Support />
-      <div className="relative bg-[url('/todoroki.jpg')] bg-cover bg-center h-auto aspect-[16/9] md:aspect-[3/1] " />
+      <div className="relative bg-[url('/background/javelin.jpg')] bg-cover bg-center h-auto aspect-[16/9] md:aspect-[3/1] " />
       <div className='flex container mx-auto gap-4'>
         <div className='hidden md:block md:flex-init pt-5'>
           <SideMenu />
