@@ -23,7 +23,7 @@ export const Access = () => {
               〒211-0052 神奈川県川崎市中原区等々力1-5
             </span>
           </div>
-          <div className='w-full font-bold text-md md:text-lg bg-orange-600 px-4 py-1 text-left text-white'>
+          <div className='w-full font-bold text-md md:text-lg bg-[#FF534F] px-4 py-1 text-left text-white'>
             公共交通機関
           </div>
           <div className='flex items-start'>
@@ -55,7 +55,7 @@ export const Access = () => {
               </Link>
             </div>
           </div>
-          <div className='w-full font-bold text-md md:text-lg bg-orange-600 px-4 py-1 text-left text-white'>
+          <div className='w-full font-bold text-md md:text-lg bg-[#FF534F] px-4 py-1 text-left text-white'>
             車
           </div>
           <div className='flex flex-col gap-1 flex-1 text-gray-800 text-sm md:md:text-base'>
