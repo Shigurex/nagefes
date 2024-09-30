@@ -96,8 +96,8 @@ export const programItems: Program[] = [
   {
     name: 'ストラックアウト',
     icon: '/program/turbo.jpg',
-    detail: 'ターボジャブの体験',
-    target: '9歳以上',
+    detail: 'ストラックアウトの体験',
+    target: '全年齢',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
     status: 'before',
