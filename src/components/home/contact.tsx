@@ -20,14 +20,6 @@ export const Contact = () => {
             </div>
           </Link>
         </div>
-        <div className='flex flex-col gap-3'>
-          <div className='flex items-center gap-2 text-sm md:text-base'>
-            <Phone />
-            <span>
-              080-4388-8807（担当者 なげるフェスティバル実行委員長 中島）
-            </span>
-          </div>
-        </div>
         <div className='justify-center w-64 md:w-80 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
           <span className='text-sm md:text-base'>その他のお問い合わせ</span>
         </div>
