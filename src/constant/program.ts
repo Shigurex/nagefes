@@ -32,7 +32,7 @@ export const programItems: Program[] = [
   {
     name: 'なげるゲームス\n（大人の部）',
     icon: '/program/jave_adult.jpg',
-    detail: 'ジャベボール投 予選3投 決勝2投',
+    detail: 'ジャベボール投チャレンジ ３投',
     target: '高校生以上',
     isFree: false,
     path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
@@ -42,7 +42,7 @@ export const programItems: Program[] = [
     name: '投能力タレント\n発掘プログラム',
     icon: '/program/talent.jpg',
     detail:
-      '講習会＋投能力向上プログラム\n①10 時〜11時 ②11時〜12時 ③12時〜13時',
+      '投能力向上プログラム＋適性検査\n①10 時〜11時 ②11時〜12時 ③12時〜13時',
     target: '小学生',
     isFree: false,
     path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
