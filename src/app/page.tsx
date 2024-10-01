@@ -1,4 +1,5 @@
 import { Access } from '@/components/home/access'
+import { Competition } from '@/components/home/competition'
 import { Contact } from '@/components/home/contact'
 import { Goods } from '@/components/home/goods'
 import { Information } from '@/components/home/information'
@@ -24,6 +25,7 @@ export default function Home() {
         <div className='flex flex-col flex-auto'>
           <Access />
           <Information />
+          {/* <Competition /> */}
           <Contact />
         </div>
       </div>
