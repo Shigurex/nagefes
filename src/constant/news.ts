@@ -5,6 +5,10 @@ export interface News {
 
 export const newsItems: News[] = [
   {
+    date: new Date('2024/10/3'),
+    context: 'イベントの申し込みを開始しました！',
+  },
+  {
     date: new Date('2024/10/1'),
     context:
       'イベントプログラムをリリースしました！申し込み開始は10/3となります！',

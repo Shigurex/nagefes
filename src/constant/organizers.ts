@@ -11,7 +11,7 @@ export const organizerItems: Organizer[] = [
     nameEnglish: 'Nakashima Shohei',
     icon: '/organizer/nakashima.jpg',
     detail:
-      '2023年パリ世界パラ陸上日本代表選手コーチ\n慶應義塾大学体育会競走部コーチ\nInstagramフォロワー約1万人',
+      '2023年パリ世界パラ陸上日本代表選手コーチ\n慶應義塾大学体育会競走部コーチ\nInstagramフォロワー1万人',
   },
   {
     name: '八木 一憲',
