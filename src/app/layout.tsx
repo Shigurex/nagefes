@@ -17,7 +17,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <head />
+      <head>
+        <meta property='og:title' content='なげるフェスティバル' />
+        <meta property='og:description' content='なげるでつながるなげフェス' />
+        <meta property='og:image' content='/top.jpg' />
+        <meta property='og:url' content='https://nagerufes.com/' />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:title' content='なげるフェスティバル' />
+        <meta name='twitter:description' content='なげるでつながるなげフェス' />
+        <meta name='twitter:image' content='/top.jpg' />
+      </head>
       <body
         className={clsx(
           'flex flex-col',
