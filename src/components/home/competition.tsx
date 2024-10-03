@@ -15,7 +15,7 @@ export const Competition = () => {
             href='https://drive.google.com/file/d/132ZpfFP7mrZEcGGhCMD9-ZtrjHymxjWg/view?usp=sharing'
             target='_blank'
           >
-            <div className='flex items-center gap-2 text-sm md:text-base'>
+            <div className='flex items-center gap-2 text-sm md:text-base text-black'>
               <FileText />
               <span>大会注意事項</span>
             </div>
@@ -29,7 +29,7 @@ export const Competition = () => {
             href='https://drive.google.com/file/d/1dhHg90mXCNQfV_ibnMVTmSreleLh1aqD/view?usp=sharing'
             target='_blank'
           >
-            <div className='flex items-center gap-2 text-sm md:text-base'>
+            <div className='flex items-center gap-2 text-sm md:text-base text-black'>
               <FileText />
               <span>実施要項［なげるゲームス］</span>
             </div>
