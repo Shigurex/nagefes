@@ -32,7 +32,7 @@ export const programItems: Program[] = [
   {
     name: 'なげるゲームス\n（大人の部）',
     icon: '/program/jave_adult.jpg',
-    detail: 'ジャベボール投チャレンジ ３投',
+    detail: 'ジャベボール投チャレンジ 3投',
     target: '高校生以上',
     isFree: false,
     path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
