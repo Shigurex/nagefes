@@ -25,7 +25,7 @@ export default function Home() {
         <div className='flex flex-col flex-auto'>
           <Access />
           <Information />
-          {/* <Competition /> */}
+          <Competition />
           <Contact />
         </div>
       </div>
