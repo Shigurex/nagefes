@@ -7,6 +7,7 @@ import {
   MapPin,
   Newspaper,
   ScrollText,
+  Swords,
 } from 'lucide-react'
 
 export interface Menu {
@@ -38,6 +39,11 @@ export const menuItems: Menu[] = [
     name: 'INFORMATION',
     path: '/#information',
     icon: <Info className='h-5 w-5' />,
+  },
+  {
+    name: 'COMPETITION',
+    path: '/#competition',
+    icon: <Swords className='h-5 w-5' />,
   },
   { name: 'CONTACT', path: '/#contact', icon: <Mail className='h-5 w-5' /> },
 ]

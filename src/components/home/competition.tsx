@@ -4,7 +4,7 @@ import { MenuTitle } from '../common/menuTitle'
 
 export const Competition = () => {
   return (
-    <div className='flex flex-col px-3 py-10 gap-5' id='contact'>
+    <div className='flex flex-col px-3 py-10 gap-5' id='competition'>
       <MenuTitle>COMPETITION</MenuTitle>
       <div className='flex flex-col gap-4'>
         <div className='justify-center w-64 md:w-80 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
