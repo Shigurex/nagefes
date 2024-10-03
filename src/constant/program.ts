@@ -18,7 +18,7 @@ export const programItems: Program[] = [
     target: '高校生以上',
     isFree: false,
     path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: 'なげるゲームス\n（小学生・中学生の部）',
@@ -27,7 +27,7 @@ export const programItems: Program[] = [
     target: '小学生 / 中学生',
     isFree: false,
     path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: 'なげるゲームス\n（大人の部）',
@@ -36,7 +36,7 @@ export const programItems: Program[] = [
     target: '高校生以上',
     isFree: false,
     path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: '投能力タレント\n発掘プログラム',
@@ -46,7 +46,7 @@ export const programItems: Program[] = [
     target: '小学生',
     isFree: false,
     path: 'https://forms.gle/UbwMcVXtSFk58Fbt6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: 'スピードガンコンテスト',
@@ -55,7 +55,7 @@ export const programItems: Program[] = [
     target: '全年齢',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: 'ギネスチャレンジ',
@@ -64,7 +64,7 @@ export const programItems: Program[] = [
     target: '小学生',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: '仕事を投げよう',
@@ -73,7 +73,7 @@ export const programItems: Program[] = [
     target: '高校生以上',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: 'パラ体験',
@@ -82,7 +82,7 @@ export const programItems: Program[] = [
     target: '全年齢、ご家族連れ',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: 'ターボジャブ体験会',
@@ -91,7 +91,7 @@ export const programItems: Program[] = [
     target: '9歳以上',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
-    status: 'before',
+    status: 'during',
   },
   {
     name: 'ストラックアウト',
@@ -100,6 +100,6 @@ export const programItems: Program[] = [
     target: '全年齢',
     isFree: true,
     path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
-    status: 'before',
+    status: 'during',
   },
 ]

@@ -12,7 +12,7 @@ export const Access = () => {
       <div className='flex flex-col xl:flex-row gap-5'>
         {/* <div className='h-[400px] w-full bg-slate-200 rounded-lg' /> */}
         <div className='w-full flex flex-col gap-3'>
-          <div className='flex flex-col gap-3'>
+          <div className='flex flex-col gap-3 text-black'>
             <span className='text-sm sm:md:text-base font-semibold'>
               メイン会場
             </span>

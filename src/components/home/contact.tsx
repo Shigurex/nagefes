@@ -12,7 +12,7 @@ export const Contact = () => {
         <div className='justify-center w-64 md:w-80 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
           <span className='text-sm md:text-base'>協賛のお問い合わせ</span>
         </div>
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col gap-3 text-black'>
           <Link href='https://forms.gle/AvRAavxm5TS1Zhop9' target='_blank'>
             <div className='flex items-center gap-2 text-sm md:text-base'>
               <ClipboardType />
@@ -23,7 +23,7 @@ export const Contact = () => {
         <div className='justify-center w-64 md:w-80 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
           <span className='text-sm md:text-base'>その他のお問い合わせ</span>
         </div>
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col gap-3 text-black'>
           <Link href='https://forms.gle/RFiKjw6Wf8eSVMEo9' target='_blank'>
             <div className='flex items-center gap-2 text-sm md:text-base'>
               <ClipboardType />
@@ -36,7 +36,10 @@ export const Contact = () => {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
           {organizerItems.map(organizer => (
-            <div key={organizer.name} className='flex items-center gap-4'>
+            <div
+              key={organizer.name}
+              className='flex items-center gap-4  text-black'
+            >
               <div className='flex-none relative w-28 h-28 md:w-40 md:h-40'>
                 <Image
                   src={organizer.icon}

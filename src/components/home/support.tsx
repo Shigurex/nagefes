@@ -16,7 +16,7 @@ export const Support = () => {
         </div>
       </div> */}
       <div className='w-full'>
-        <p className='text-xs md:text-md lg:text-xl font-bold whitespace-pre-wrap text-center'>
+        <p className='text-xs md:text-md lg:text-xl font-bold whitespace-pre-wrap text-center text-black'>
           {
             'なげるフェスティバル実行委員会では、協賛・広告掲載にご協力いただける団体・企業様を募集をしております。\n下記に協賛・広告掲載についての概要を記載いたしますので\n協賛・広告掲載いただける団体様は下記のお問い合わせフォームよりお申し込みください。'
           }

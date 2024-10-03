@@ -12,9 +12,8 @@ export default function TopPage() {
         <Link href='/#program' className='flex justify-center'>
           <div className='justify-center w-72 md:w-96 bg-white border-2 rounded-lg p-3 font-semibold text-black flex items-center shadow-md'>
             <span className='text-sm md:text-base'>
-              {/* TODO: 開始時に差し変え */}
-              イベント申し込みは10/3に開始します
-              {/* イベント申し込みはこちらから */}
+              {/* イベント申し込みは10/3に開始します */}
+              イベント申し込みはこちらから
             </span>
           </div>
         </Link>
