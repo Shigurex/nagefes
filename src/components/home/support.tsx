@@ -1,6 +1,6 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { MenuTitle } from '../common/menuTitle'
-import Image from 'next/image'
 
 export const Support = () => {
   return (
@@ -74,7 +74,7 @@ export const Support = () => {
           </span>
           <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
             <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
-            五十嵐 真
+              五十嵐 真
             </div>
           </div>
         </div>
