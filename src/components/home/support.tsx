@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { MenuTitle } from '../common/menuTitle'
 
@@ -8,17 +9,10 @@ export const Support = () => {
       id='support'
     >
       <MenuTitle>SUPPORT</MenuTitle>
-      {/* <div className='flex justify-center'>
-        <div className='justify-center w-96 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
-          <span className='text-sm md:text-base'>
-            なげるフェスティバル協賛協力のお願い
-          </span>
-        </div>
-      </div> */}
       <div className='w-full'>
-        <p className='text-xs md:text-md lg:text-xl font-bold whitespace-pre-wrap text-center text-black'>
+        <p className='text-xs md:text-md lg:text-xl font-bold whitespace-pre-wrap text-black'>
           {
-            'なげるフェスティバル実行委員会では、協賛・広告掲載にご協力いただける団体・企業様を募集をしております。\n下記に協賛・広告掲載についての概要を記載いたしますので\n協賛・広告掲載いただける団体様は下記のお問い合わせフォームよりお申し込みください。'
+            'なげるフェスティバル実行委員会では、協賛・広告掲載にご協力いただける団体・企業様を募集をしております。下記に協賛・広告掲載についての概要を記載いたしますので、協賛・広告掲載いただける団体様は下記のお問い合わせフォームよりお申し込みください。'
           }
         </p>
       </div>
@@ -31,6 +25,60 @@ export const Support = () => {
           </div>
         </div>
       </Link>
+      <div className='w-full justify-center items-center flex flex-col gap-4'>
+        <div className='w-full justify-center items-center flex flex-col gap-2'>
+          <span className='text-[#FF534F] text-md lg:text-2xl font-extrabold'>
+            オフィシャルパートナー
+          </span>
+          <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
+            <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20'>
+              <Image
+                src='/logo/nishi.png'
+                alt='Official Partner'
+                width={300}
+                height={300}
+                className='object-contain'
+              />
+            </div>
+          </div>
+        </div>
+        <div className='w-full justify-center items-center flex flex-col gap-2'>
+          <span className='text-[#FF534F] text-md lg:text-2xl font-extrabold'>
+            ゴールドパートナー
+          </span>
+          <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
+            <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20'>
+              <Image
+                src='/logo/ashikaga.PNG'
+                alt='Official Partner'
+                width={300}
+                height={300}
+                className='object-contain'
+              />
+            </div>
+          </div>
+        </div>
+        <div className='w-full justify-center items-center flex flex-col gap-2'>
+          <span className='text-[#FF534F] text-md lg:text-2xl font-extrabold'>
+            ゴールドサポーター
+          </span>
+          <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
+            <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
+              飯島 薫
+            </div>
+          </div>
+        </div>
+        <div className='w-full justify-center items-center flex flex-col gap-2'>
+          <span className='text-[#FF534F] text-md lg:text-2xl font-extrabold'>
+            シルバーサポーター
+          </span>
+          <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
+            <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
+              五十嵐 真
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
