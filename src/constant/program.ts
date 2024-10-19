@@ -76,15 +76,6 @@ export const programItems: Program[] = [
     status: 'during',
   },
   {
-    name: 'パラ体験',
-    icon: '/program/pala.jpg',
-    detail: '目隠しスロー&キャッチ',
-    target: '全年齢、ご家族連れ',
-    isFree: true,
-    path: 'https://forms.gle/WxHeqhiBMKMrZhyC6',
-    status: 'during',
-  },
-  {
     name: 'ターボジャブ体験会',
     icon: '/program/turbo.jpg',
     detail: 'ターボジャブの体験',

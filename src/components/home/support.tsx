@@ -64,7 +64,7 @@ export const Support = () => {
           </span>
           <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
             <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
-              飯島 薫
+              飯島薫 様
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ export const Support = () => {
           </span>
           <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
             <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
-              五十嵐 真
+              匿名希望 様
             </div>
           </div>
         </div>
