@@ -62,9 +62,12 @@ export const Support = () => {
           <span className='text-[#FF534F] text-md lg:text-2xl font-extrabold'>
             ゴールドサポーター
           </span>
-          <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
-            <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 w-full bg-white rounded-xl p-3'>
+            <div className='w-full flex justify-center items-center h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
               飯島薫 様
+            </div>
+            <div className='w-full flex justify-center items-center h-12 lg:h-20 text-2xl mg:text-3xl font-extrabold'>
+              塩崎千畝 様
             </div>
           </div>
         </div>
