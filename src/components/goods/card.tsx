@@ -17,7 +17,7 @@ type Props = {
 export const GoodCard = ({ good }: Props) => {
   return (
     <Card className='w-full overflow-hidden flex flex-col'>
-      <CardHeader className='p-0 overflow-hidden relative aspect-[16/9]'>
+      <CardHeader className='p-4 overflow-hidden relative aspect-[16/9]'>
         <Image
           src={good.icon}
           alt='Background Image'
