@@ -60,6 +60,22 @@ export const Support = () => {
         </div>
         <div className='w-full justify-center items-center flex flex-col gap-2'>
           <span className='text-[#FF534F] text-md lg:text-2xl font-extrabold'>
+            物品協賛
+          </span>
+          <div className='grid grid-cols-1 lg:grid-cols-3 w-full bg-white rounded-xl p-3'>
+            <div className='w-full flex justify-center items-center lg:col-start-2 h-12 lg:h-20'>
+              <Image
+                src='/logo/chalkless.jpg'
+                alt='Official Partner'
+                width={300}
+                height={300}
+                className='object-contain'
+              />
+            </div>
+          </div>
+        </div>
+        <div className='w-full justify-center items-center flex flex-col gap-2'>
+          <span className='text-[#FF534F] text-md lg:text-2xl font-extrabold'>
             ゴールドサポーター
           </span>
           <div className='grid grid-cols-1 lg:grid-cols-2 w-full bg-white rounded-xl p-3'>
