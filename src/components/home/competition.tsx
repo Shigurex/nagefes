@@ -49,6 +49,17 @@ export const Competition = () => {
             </div>
           </Link>
         </div>
+        <div className='flex flex-col gap-3'>
+          <Link
+            href='https://drive.google.com/file/d/1z393mAE-BGgzpfGeCwk9mEv5IUNkCL3U/view?usp=sharing'
+            target='_blank'
+          >
+            <div className='flex items-center gap-2 text-sm md:text-base text-black'>
+              <FileText />
+              <span>番組編成［投能力タレント発掘プログラム］</span>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   )
