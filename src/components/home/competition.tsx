@@ -70,7 +70,29 @@ export const Competition = () => {
           >
             <div className='flex items-center gap-2 text-sm md:text-base text-black'>
               <FileText />
-              <span>結果［なげるゲームス］（やり投）</span>
+              <span>結果［なげるゲームス］（やり投の部）予選</span>
+            </div>
+          </Link>
+        </div>
+        <div className='flex flex-col gap-3'>
+          <Link
+            href='https://drive.google.com/file/d/1bTAIcvuzeQV4SJqPWHYcXOCLGzE6uIIV/view?usp=sharing'
+            target='_blank'
+          >
+            <div className='flex items-center gap-2 text-sm md:text-base text-black'>
+              <FileText />
+              <span>結果［なげるゲームス］（小学生・中学生の部）予選</span>
+            </div>
+          </Link>
+        </div>
+        <div className='flex flex-col gap-3'>
+          <Link
+            href='https://drive.google.com/file/d/1qeo4FPepKO1Peyz2ffeOPNso15iV10Kj/view?usp=sharing'
+            target='_blank'
+          >
+            <div className='flex items-center gap-2 text-sm md:text-base text-black'>
+              <FileText />
+              <span>結果［なげるゲームス］（大人の部）予選</span>
             </div>
           </Link>
         </div>
