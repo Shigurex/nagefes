@@ -60,6 +60,20 @@ export const Competition = () => {
             </div>
           </Link>
         </div>
+        <div className='justify-center w-64 md:w-80 bg-white border-2 border-black rounded-lg p-3 font-semibold text-black flex items-center space-x-2 shadow-md'>
+          <span className='text-sm md:text-base'>結果</span>
+        </div>
+        <div className='flex flex-col gap-3'>
+          <Link
+            href='https://drive.google.com/file/d/13kygnfU0a53L2qJOkn3vK9lfj6BHebH_/view?usp=sharing'
+            target='_blank'
+          >
+            <div className='flex items-center gap-2 text-sm md:text-base text-black'>
+              <FileText />
+              <span>結果［なげるゲームス］（やり投）</span>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   )
